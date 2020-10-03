@@ -2,7 +2,14 @@
   <div class="SocialButtons">
     <v-tooltip v-for="item in items" :key="item.title" bottom>
       <template v-slot:activator="{ on, attrs }">
-        <v-btn icon v-bind="attrs" v-on="on">
+        <v-btn
+          icon
+          v-bind="attrs"
+          link
+          :href="item.url"
+          target="_blank"
+          v-on="on"
+        >
           <v-icon>{{ item.icon }}</v-icon>
         </v-btn>
       </template>
@@ -20,22 +27,22 @@ export default Vue.extend({
         {
           title: 'GitHub',
           icon: 'mdi-github',
-          url: '',
+          url: 'https://github.com/katonux',
         },
         {
           title: 'Twitter',
           icon: 'mdi-twitter',
-          url: '',
+          url: 'https://twitter.com/katonux',
         },
         {
           title: 'Telegram',
           icon: 'mdi-telegram',
-          url: '',
+          url: 'https://telegram.me/katonux',
         },
         {
           title: 'Email',
           icon: 'mdi-email',
-          url: '',
+          url: 'mailto:kato-shota@outlook.jp',
         },
       ],
     }
