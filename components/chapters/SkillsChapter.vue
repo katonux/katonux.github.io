@@ -1,6 +1,6 @@
 <template>
-  <div class="SkillsChapter">
-    <div class="mt-8 text-center">
+  <div class="SkillsChapter my-16">
+    <div class="text-center">
       <h2>Skills</h2>
     </div>
     <v-container style="max-width: 1300px">
