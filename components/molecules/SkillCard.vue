@@ -1,6 +1,6 @@
 <template>
   <div class="SkillCard">
-    <v-card width="200">
+    <v-card width="200" class="rounded-lg">
       <v-img :class="imgClass" height="180px">
         <v-container fluid fill-height>
           <v-row align="center" justify="center">
