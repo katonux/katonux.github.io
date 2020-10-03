@@ -3,7 +3,7 @@
     <v-app-bar fixed app dense>
       <v-toolbar-title v-text="title" />
     </v-app-bar>
-    <v-main>
+    <v-main class="grey darken-3">
       <NavigationDrawer />
       <nuxt />
     </v-main>
