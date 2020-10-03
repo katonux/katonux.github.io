@@ -1,6 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  // Dev Server Settings
+  server: {
+    port: 3000,
+    host: '0.0.0.0',
+  },
+
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
