@@ -2,9 +2,9 @@
   <div class="BookCover">
     <v-container
       fluid
-      style="background-image: linear-gradient(-45deg, #85a333, #0db0c9)"
+      style="background-image: linear-gradient(-90deg, #85a333, #0db0c9)"
     >
-      <v-row align="center" justify="center" style="height: 70vh">
+      <v-row align="center" justify="center" style="height: 100vh">
         <v-col class="text-center" cols="12">
           <v-avatar size="150" class="my-4">
             <img

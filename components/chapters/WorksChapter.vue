@@ -1,5 +1,8 @@
 <template>
-  <div class="WorksChapter py-16">
+  <div
+    class="WorksChapter py-16"
+    style="background-image: linear-gradient(-90deg, #85a333, #0db0c9)"
+  >
     <div class="text-center">
       <h2>Works</h2>
       <v-container>

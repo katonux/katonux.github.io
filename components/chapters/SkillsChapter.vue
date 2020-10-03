@@ -3,7 +3,7 @@
     <div class="text-center">
       <h2>Skills</h2>
     </div>
-    <v-container style="max-width: 1300px">
+    <v-container style="max-width: 1200px">
       <v-row justify="center">
         <v-col
           v-for="item in items"
