@@ -4,21 +4,7 @@
       <v-toolbar-title v-text="title" />
     </v-app-bar>
     <v-main>
-      <v-navigation-drawer
-        floating
-        permanent
-        absolute
-        class="ma-10"
-        height="200"
-      >
-        <v-list dense rounded>
-          <v-list-item link>
-            <v-list-item-icon>
-              <v-icon>mdi-check</v-icon>
-            </v-list-item-icon>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
+      <NavigationDrawer />
       <nuxt />
     </v-main>
     <v-footer app>
@@ -27,8 +13,13 @@
   </v-app>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+import NavigationDrawer from '@/components/NavigationDrawer.vue'
+export default Vue.extend({
+  components: {
+    NavigationDrawer,
+  },
   data() {
     return {
       title: 'KATONUX',
@@ -38,5 +29,5 @@ export default {
       ],
     }
   },
-}
+})
 </script>
