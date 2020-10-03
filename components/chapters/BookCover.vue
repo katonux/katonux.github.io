@@ -14,6 +14,20 @@
           </v-avatar>
           <h1 class="display-1 font-weight-thin mb-4">Katonux</h1>
           <h4 class="subheading">Shota Kato</h4>
+          <div class="my-2">
+            <v-btn icon>
+              <v-icon>mdi-twitter</v-icon>
+            </v-btn>
+            <v-btn icon>
+              <v-icon>mdi-github</v-icon>
+            </v-btn>
+            <v-btn icon>
+              <v-icon>mdi-telegram</v-icon>
+            </v-btn>
+            <v-btn icon>
+              <v-icon>mdi-email</v-icon>
+            </v-btn>
+          </div>
         </v-col>
       </v-row>
     </v-container>
