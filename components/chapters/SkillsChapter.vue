@@ -67,7 +67,7 @@ export default Vue.extend({
           title: 'Nuxt.js',
           desc: 'JavaScript Framework',
           iconName: 'mdi-nuxt',
-          imgClass: 'green',
+          imgClass: 'light-green lighten-3',
         },
         {
           title: 'Node.js',
@@ -79,19 +79,19 @@ export default Vue.extend({
           title: 'Angular',
           desc: 'Frontend Framework',
           iconName: 'fab fa-angular',
-          imgClass: 'red lighten-1',
+          imgClass: 'red lighten-3',
         },
         {
           title: 'Docker',
           desc: 'Containers Platform',
           iconName: 'fab fa-docker',
-          imgClass: 'blue lighten-1',
+          imgClass: 'blue lighten-2',
         },
         {
           title: 'Python',
           desc: 'Programming Language',
           iconName: 'fab fa-python',
-          imgClass: 'deep-purple lighten-1',
+          imgClass: 'deep-purple lighten-2',
         },
         {
           title: 'Django',

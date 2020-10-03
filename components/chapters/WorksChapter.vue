@@ -17,14 +17,12 @@
         </v-col>
         <v-col class="d-flex justify-center" cols="12">
           <v-card width="700px">
-            <v-img> no image </v-img>
             <v-card-title>katonux.github.io</v-card-title>
             <v-card-text>This Page!</v-card-text>
           </v-card>
         </v-col>
         <v-col class="d-flex justify-center" cols="12">
           <v-card width="700px">
-            <v-img> no image </v-img>
             <v-card-title>Spotify Nowplaying</v-card-title>
             <v-card-text> https://spotify-nowplaying.web.app </v-card-text>
           </v-card>
