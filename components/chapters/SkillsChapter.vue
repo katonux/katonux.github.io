@@ -3,14 +3,26 @@
     <div class="text-center">
       <h2>Skills</h2>
     </div>
-    <v-container style="max-width: 1200px">
-      <v-row justify="center">
+    <v-container v-if="mobile" style="overflow-x: scroll; display: flex">
+      <v-col v-for="item in items" :key="item.title">
+        <skill-card
+          :icon-name="item.iconName"
+          :title="item.title"
+          :desc="item.desc"
+          :img-class="item.imgClass"
+          :img-src="item.imgSrc"
+          style="display: inline-block"
+        />
+      </v-col>
+    </v-container>
+    <v-container v-else style="max-width: 1200px">
+      <v-row justify="start">
         <v-col
           v-for="item in items"
           :key="item.title"
           class="d-flex py-5 justify-center"
         >
-          <SkillCard
+          <skill-card
             :icon-name="item.iconName"
             :title="item.title"
             :desc="item.desc"
@@ -125,6 +137,18 @@ export default Vue.extend({
         },
       ],
     }
+  },
+  computed: {
+    mobile(): Boolean {
+      if (
+        this.$vuetify.breakpoint.name === 'sm' ||
+        this.$vuetify.breakpoint.name === 'xs'
+      ) {
+        return true
+      } else {
+        return false
+      }
+    },
   },
 })
 </script>
