@@ -1,7 +1,7 @@
 <template>
   <div>
-    <BookCover />
-    <SkillsChapter />
+    <book-cover />
+    <skills-chapter />
     <works-chapter />
   </div>
 </template>
