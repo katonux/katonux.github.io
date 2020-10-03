@@ -3,9 +3,13 @@
     <div class="mt-8 text-center">
       <h2>Skills</h2>
     </div>
-    <v-container>
+    <v-container style="max-width: 1300px">
       <v-row justify="center">
-        <v-col v-for="item in items" :key="item.title" class="py-5" md="2">
+        <v-col
+          v-for="item in items"
+          :key="item.title"
+          class="d-flex py-5 justify-center"
+        >
           <SkillCard
             :icon-name="item.iconName"
             :title="item.title"
@@ -33,49 +37,49 @@ export default Vue.extend({
           title: 'Linux',
           desc: 'Operating System',
           iconName: 'fab fa-linux',
-          imgClass: 'yellow lighten-3',
+          imgClass: 'grey lighten-1',
         },
         {
           title: 'HTML5',
-          desc: 'Markup',
+          desc: 'Markup Language',
           iconName: 'fab fa-html5',
-          imgClass: 'green lighten-1',
+          imgClass: 'red lighten-1',
         },
         {
           title: 'JavaScript',
-          desc: 'Language',
+          desc: 'Programming Language',
           iconName: 'mdi-language-javascript',
-          imgClass: 'green lighten-1',
+          imgClass: 'yellow lighten-1',
         },
         {
           title: 'TypeScript',
-          desc: 'Frontend Framework',
+          desc: 'Programming Language',
           iconName: 'mdi-language-typescript',
-          imgClass: 'green lighten-1',
+          imgClass: 'blue lighten-1',
         },
         {
           title: 'Vue.js',
-          desc: 'Frontend Framework',
+          desc: 'JavaScript Framework',
           iconName: 'fab fa-vuejs',
-          imgClass: 'green lighten-1',
+          imgClass: 'green',
         },
         {
           title: 'Nuxt.js',
-          desc: 'Markup',
+          desc: 'JavaScript Framework',
           iconName: 'mdi-nuxt',
-          imgClass: 'green lighten-1',
+          imgClass: 'green',
         },
         {
           title: 'Node.js',
-          desc: 'Markup',
+          desc: 'JavaScript Runtime',
           iconName: 'mdi-nodejs',
-          imgClass: 'green lighten-1',
+          imgClass: 'light-green lighten-1',
         },
         {
           title: 'Angular',
-          desc: 'Markup',
+          desc: 'Frontend Framework',
           iconName: 'fab fa-angular',
-          imgClass: 'green lighten-1',
+          imgClass: 'red lighten-1',
         },
         {
           title: 'Docker',
@@ -85,39 +89,39 @@ export default Vue.extend({
         },
         {
           title: 'Python',
-          desc: 'Containers Platform',
+          desc: 'Programming Language',
           iconName: 'fab fa-python',
-          imgClass: 'blue lighten-1',
+          imgClass: 'deep-purple lighten-1',
         },
         {
           title: 'Django',
-          desc: 'Containers Platform',
+          desc: 'Python Web Framework',
           iconName: 'fab fa-python',
-          imgClass: 'blue lighten-1',
+          imgClass: 'teal lighten-1',
         },
         {
           title: 'Git',
-          desc: 'Containers Platform',
+          desc: 'Version Control System',
           iconName: 'mdi-git',
-          imgClass: 'blue lighten-1',
+          imgClass: 'orange darken-1',
         },
         {
           title: 'Vuetify',
-          desc: 'Containers Platform',
+          desc: 'CSS Framework',
           iconName: 'mdi-vuetify',
-          imgClass: 'blue lighten-1',
+          imgClass: 'light-blue lighten-3',
         },
         {
           title: 'Bootstrap',
-          desc: 'Containers Platform',
+          desc: 'CSS Framework',
           iconName: 'mdi-bootstrap',
-          imgClass: 'blue lighten-1',
+          imgClass: 'indigo lighten-1',
         },
         {
           title: 'Swift',
-          desc: 'Containers Platform',
+          desc: 'Programming Language',
           iconName: 'mdi-language-swift',
-          imgClass: 'blue lighten-1',
+          imgClass: 'orange lighten-2',
         },
       ],
     }
