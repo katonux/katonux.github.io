@@ -20,14 +20,5 @@ export default Vue.extend({
   components: {
     NavigationDrawer,
   },
-  data() {
-    return {
-      title: 'KATONUX',
-      items: [
-        { title: 'Home', icon: 'mdi-view-dashboard' },
-        { title: 'About', icon: 'mdi-forum' },
-      ],
-    }
-  },
 })
 </script>
