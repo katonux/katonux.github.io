@@ -43,7 +43,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/google-gtag',
   ],
+
+  'google-gtag': {
+    id: 'UA-92211570-1',
+    config: {
+      send_page_view: false,
+    },
+    debug: false,
+  },
 
   // Content module configuration (https://go.nuxtjs.dev/content-config)
   content: {},
