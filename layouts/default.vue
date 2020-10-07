@@ -17,6 +17,6 @@ import PrivacyPolicy from '@/components/molecules/PrivacyPolicy.vue'
 export default Vue.extend({
   components: {
     PrivacyPolicy,
-  }
+  },
 })
 </script>
