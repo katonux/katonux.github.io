@@ -12,8 +12,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - katonux-portfolio',
-    title: 'katonux-portfolio',
+    titleTemplate: '%s - Katonux',
+    title: 'Katonux',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
