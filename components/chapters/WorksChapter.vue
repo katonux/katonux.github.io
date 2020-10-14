@@ -17,7 +17,7 @@
         </v-col>
         <v-col class="d-flex justify-center" cols="12">
           <v-card width="700px">
-            <v-img class="blue-grey darken-4">
+            <v-img class="grey lighten-2">
               <v-row align="center" justify="center" style="height: 280px">
                 <v-col class="align-center text-center" cols="12">
                   <v-avatar size="100" class="my-4">
@@ -37,13 +37,10 @@
         </v-col>
         <v-col class="d-flex justify-center" cols="12">
           <v-card width="700px">
-            <v-img class="teal darken-3">
+            <v-img class="orange lighten-1">
               <v-row align="center" justify="center" style="height: 280px">
                 <v-col class="align-center text-center" cols="3">
                   <v-icon size="100">mdi-spotify</v-icon>
-                </v-col>
-                <v-col class="align-center text-center" cols="3">
-                  <v-icon size="100">mdi-arrow-right-bold</v-icon>
                 </v-col>
                 <v-col class="align-center text-center" cols="3">
                   <v-icon size="100">mdi-twitter</v-icon>
