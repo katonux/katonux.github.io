@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-main class="grey darken-3">
+    <v-main class="grey darken-2">
       <nuxt />
     </v-main>
     <v-footer>

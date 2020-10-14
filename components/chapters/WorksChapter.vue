@@ -9,15 +9,15 @@
     <v-container>
       <v-row>
         <v-col class="d-flex justify-center" cols="12">
-          <v-card width="700px">
+          <v-card light width="700px">
             <v-img src="/nemushee_header.png" />
             <v-card-title>Nemushee.net</v-card-title>
             <v-card-text> Self-hosted mastodon instance </v-card-text>
           </v-card>
         </v-col>
         <v-col class="d-flex justify-center" cols="12">
-          <v-card width="700px">
-            <v-img class="grey lighten-2">
+          <v-card light width="700px">
+            <v-img class="green lighten-1">
               <v-row align="center" justify="center" style="height: 280px">
                 <v-col class="align-center text-center" cols="12">
                   <v-avatar size="100" class="my-4">
@@ -36,7 +36,7 @@
           </v-card>
         </v-col>
         <v-col class="d-flex justify-center" cols="12">
-          <v-card width="700px">
+          <v-card light width="700px">
             <v-img class="orange lighten-1">
               <v-row align="center" justify="center" style="height: 280px">
                 <v-col class="align-center text-center" cols="3">
