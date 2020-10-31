@@ -12,6 +12,7 @@
           <v-card
             hover
             href="https://nemushee.net"
+            target="_blank"
             rounded="lg"
             light
             width="600px"
@@ -27,6 +28,7 @@
           <v-card
             hover
             href="https://spotify-nowplaying.web.app"
+            target="_blank"
             rounded="lg"
             light
             width="600px"
