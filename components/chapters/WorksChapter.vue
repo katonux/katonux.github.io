@@ -16,7 +16,7 @@
             light
             width="600px"
           >
-            <v-img src="/nemushee_lemon.png" />
+            <v-img src="/header.png" />
             <v-card-title>Nemushee.net</v-card-title>
             <v-card-text>
               オープンソースのミニブログ・分散型SNSサービス「Mastodon」のインスタンスです。自宅にインフラを構築して運営しています。
